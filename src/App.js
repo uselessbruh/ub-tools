@@ -6,19 +6,19 @@ import Apps from './pages/Apps';
 import './App.css';
 
 function App() {
-  return (
-    <Router>
-      <div className="app">
-        <Header />
-        <main className="main-content">
-          <Routes>
-            <Route path="/" element={<WebApps />} />
-            <Route path="/apps" element={<Apps />} />
-          </Routes>
-        </main>
-      </div>
-    </Router>
-  );
+    return (
+        <Router>
+            <div className="app">
+                <Header />
+                <main className="main-content">
+                    <Routes>
+                        <Route path="/" element={<WebApps />} />
+                        <Route path="/apps" element={<Apps />} />
+                    </Routes>
+                </main>
+            </div>
+        </Router>
+    );
 }
 
 export default App;
