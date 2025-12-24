@@ -1,5 +1,4 @@
 import React from 'react';
-import React from 'react';
 import ToolCard from '../components/ToolCard';
 import './Page.css';
 
